@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "birchingplus:block/carpentry_table" },
+    "facing=east": { "model": "birchingplus:block/carpentry_table", "y": 90 },
+    "facing=south": { "model": "birchingplus:block/carpentry_table", "y": 180 },
+    "facing=west": { "model": "birchingplus:block/carpentry_table", "y": 270 }
+  }
+}

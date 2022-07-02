@@ -1,0 +1,114 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 1.08333,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": {
+							"vector": {
+								"vector": [0, "math.sin(query.anim_time*3)*-10", 0]
+							}
+						},
+						"1.0833": {
+							"vector": {
+								"vector": [0, 0, 0]
+							}
+						}
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": {
+							"vector": {
+								"vector": ["math.sin(query.anim_time*10)*20", 0, 0]
+							}
+						},
+						"1.0833": {
+							"vector": {
+								"vector": ["math.sin(query.anim_time*3)*0", 0, 0]
+							}
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": {
+								"vector": [0, "math.sin(query.anim_time*3)*-10", 0]
+							}
+						},
+						"1.0833": {
+							"vector": {
+								"vector": [0, "math.sin(query.anim_time*3)*0", 0]
+							}
+						}
+					}
+				},
+				"main": {
+					"position": {
+						"0.0": {
+							"vector": {
+								"vector": [0, "math.sin(query.anim_time*3)*-10", 0]
+							}
+						},
+						"1.0833": {
+							"vector": {
+								"vector": [0, "math.sin(query.anim_time*3)*0", 0]
+							}
+						}
+					}
+				}
+			}
+		},
+		"walk": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"head": {
+					"rotation": {
+						"vector": {
+							"vector": [2.5, 0, 0]
+						}
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": {
+							"vector": [-7.5, 0, 0]
+						}
+					}
+				},
+				"leg": {
+					"rotation": {
+						"vector": {
+							"vector": ["math.sin(query.anim_time*900)*-20", 0, 0]
+						}
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"vector": {
+							"vector": ["math.sin(query.anim_time*900)*-20", 0, 0]
+						}
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"vector": {
+							"vector": ["math.sin(query.anim_time*900)*20", 0, 0]
+						}
+					}
+				},
+				"leg4": {
+					"rotation": {
+						"vector": {
+							"vector": ["math.sin(query.anim_time*900)*20", 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

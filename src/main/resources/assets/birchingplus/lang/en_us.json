@@ -1,0 +1,18 @@
+{
+  "item.birchingplus.bir_hazelnut": "Hazelnut",
+  "item.birchingplus.bir_spot_hide": "Spotted Deer Hide",
+  "item.birchingplus.spotdeer_spawn_egg": "Spotted Deer Spawn Egg",
+  "item.birchingplus.squi_spawn_egg": "Squirrel Spawn Egg",
+
+  "block.birchingplus.yellow_leaves": "Yellow Birch Leaves",
+  "block.birchingplus.orange_leaves": "Orange Birch Leaves",
+  "block.birchingplus.dead_leaves": "Dead Leaves",
+  "block.birchingplus.deer_head": "Deer Head",
+  "block.birchingplus.carpentry_table": "Carpentry Table",
+  "block.birchingplus.bir_leaves": "Birch Leaves",
+
+  "entity.birchingplus.spotted_deer": "Spotted Deer",
+  "entity.birchingplus.bir_squirrel": "Squirrel",
+
+  "itemGroup.birchingplustab": "BirchingPlus+"
+}

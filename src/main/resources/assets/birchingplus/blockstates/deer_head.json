@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "birchingplus:block/deer_head" },
+    "facing=east": { "model": "birchingplus:block/deer_head", "y": 90 },
+    "facing=south": { "model": "birchingplus:block/deer_head", "y": 180 },
+    "facing=west": { "model": "birchingplus:block/deer_head", "y": 270 }
+  }
+}
